@@ -1,0 +1,711 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.30/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/package.json
+5 warn package.json fullcalendar@2.0.2 No license field.
+6 verbose install where, deps [ '/Users/srkenny/Project/fullcalendar',
+6 verbose install   [ 'bower',
+6 verbose install     'underscore',
+6 verbose install     'grunt',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-compress',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-jscs-checker',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-bump',
+6 verbose install     'lumbar',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher' ] ]
+7 verbose install where, peers [ '/Users/srkenny/Project/fullcalendar', [] ]
+8 verbose installManyTop reading for lifecycle /Users/srkenny/Project/fullcalendar/package.json
+9 info preinstall fullcalendar@2.0.2
+10 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/bower/package.json
+11 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt/package.json
+12 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-bump/package.json
+13 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-clean/package.json
+14 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-compress/package.json
+15 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-concat/package.json
+16 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-copy/package.json
+17 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-cssmin/package.json
+18 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-jshint/package.json
+19 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-uglify/package.json
+20 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-jscs-checker/package.json
+21 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+22 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-shell/package.json
+23 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/handlebars/package.json
+24 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/jasmine-core/package.json
+25 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/karma/package.json
+26 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-jasmine/package.json
+27 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-phantomjs-launcher/package.json
+28 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/lumbar/package.json
+29 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/nib/package.json
+30 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus/package.json
+31 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus-images/package.json
+32 verbose installManyTop reading scoped package data from /Users/srkenny/Project/fullcalendar/node_modules/underscore/package.json
+33 info package.json grunt-contrib-cssmin@0.10.0 No license field.
+34 info package.json karma-phantomjs-launcher@0.1.4 No README data
+35 info package.json underscore@1.7.0 No license field.
+36 info package.json grunt-contrib-jshint@0.8.0 No license field.
+37 info package.json lumbar@5.0.0 No license field.
+38 info package.json stylus-images@1.1.0 No license field.
+39 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/package.json
+40 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/bower/package.json
+41 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt/package.json
+42 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-bump/package.json
+43 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-clean/package.json
+44 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-compress/package.json
+45 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-concat/package.json
+46 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-copy/package.json
+47 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-cssmin/package.json
+48 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-jshint/package.json
+49 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-uglify/package.json
+50 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-jscs-checker/package.json
+51 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+52 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-shell/package.json
+53 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/handlebars/package.json
+54 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/jasmine-core/package.json
+55 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma/package.json
+56 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-jasmine/package.json
+57 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-phantomjs-launcher/package.json
+58 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/lumbar/package.json
+59 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/nib/package.json
+60 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus/package.json
+61 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus-images/package.json
+62 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/underscore/package.json
+63 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/bower/package.json
+64 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/grunt/package.json
+65 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/handlebars/package.json
+66 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/lumbar/package.json
+67 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/stylus/package.json
+68 verbose already installed skipping grunt-contrib-concat@^1.0.1 /Users/srkenny/Project/fullcalendar
+69 verbose already installed skipping grunt-contrib-uglify@^1.0.1 /Users/srkenny/Project/fullcalendar
+70 verbose already installed skipping grunt-contrib-copy@^1.0.0 /Users/srkenny/Project/fullcalendar
+71 verbose already installed skipping grunt-contrib-compress@^1.3.0 /Users/srkenny/Project/fullcalendar
+72 verbose already installed skipping grunt-contrib-clean@^1.0.0 /Users/srkenny/Project/fullcalendar
+73 verbose already installed skipping grunt-contrib-jshint@^0.8.0 /Users/srkenny/Project/fullcalendar
+74 verbose already installed skipping grunt-jscs-checker@^0.4.4 /Users/srkenny/Project/fullcalendar
+75 silly cache add args [ 'grunt-karma@^0.8.3', null ]
+76 verbose cache add spec grunt-karma@^0.8.3
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'grunt-karma@^0.8.3',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'grunt-karma',
+77 silly cache add   rawSpec: '^0.8.3',
+77 silly cache add   spec: '>=0.8.3 <0.9.0',
+77 silly cache add   type: 'range' }
+78 silly addNamed grunt-karma@>=0.8.3 <0.9.0
+79 verbose addNamed ">=0.8.3 <0.9.0" is a valid semver range for grunt-karma
+80 silly addNameRange { name: 'grunt-karma', range: '>=0.8.3 <0.9.0', hasData: false }
+81 silly mapToRegistry name grunt-karma
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry uri https://registry.npmjs.org/grunt-karma
+85 verbose addNameRange registry:https://registry.npmjs.org/grunt-karma not in flight; fetching
+86 verbose already installed skipping grunt-bump@0.8.0 /Users/srkenny/Project/fullcalendar
+87 verbose already installed skipping lumbar@^5.0.0 /Users/srkenny/Project/fullcalendar
+88 verbose already installed skipping karma-jasmine@^0.2.2 /Users/srkenny/Project/fullcalendar
+89 verbose already installed skipping karma-phantomjs-launcher@^0.1.4 /Users/srkenny/Project/fullcalendar
+90 verbose already installed skipping bower@1.7.9 /Users/srkenny/Project/fullcalendar
+91 verbose already installed skipping underscore@^1.4.4 /Users/srkenny/Project/fullcalendar
+92 verbose already installed skipping grunt@^1.0.1 /Users/srkenny/Project/fullcalendar
+93 verbose request uri https://registry.npmjs.org/grunt-karma
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 11:06:25 AM
+96 verbose request id a7379400b4f08635
+97 verbose etag "5A51IS467CCR8RLGSJPCKELE1"
+98 http request GET https://registry.npmjs.org/grunt-karma
+99 http 304 https://registry.npmjs.org/grunt-karma
+100 silly get cb [ 304,
+100 silly get   { date: 'Sun, 10 Jul 2016 10:06:26 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     etag: '"5A51IS467CCR8RLGSJPCKELE1"',
+100 silly get     age: '0',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-lcy1131-LCY',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1468145186.066624,VS0,VE721',
+100 silly get     vary: 'Accept-Encoding' } ]
+101 verbose etag https://registry.npmjs.org/grunt-karma from cache
+102 verbose get saving grunt-karma to /Users/srkenny/.npm/registry.npmjs.org/grunt-karma/.cache.json
+103 silly addNameRange number 2 { name: 'grunt-karma', range: '>=0.8.3 <0.9.0', hasData: true }
+104 silly addNameRange versions [ 'grunt-karma',
+104 silly addNameRange   [ '0.3.0',
+104 silly addNameRange     '0.4.0',
+104 silly addNameRange     '0.4.1',
+104 silly addNameRange     '0.4.2',
+104 silly addNameRange     '0.4.3',
+104 silly addNameRange     '0.4.4',
+104 silly addNameRange     '0.5.0',
+104 silly addNameRange     '0.4.5',
+104 silly addNameRange     '0.5.1',
+104 silly addNameRange     '0.5.2',
+104 silly addNameRange     '0.4.6',
+104 silly addNameRange     '0.5.3',
+104 silly addNameRange     '0.5.4',
+104 silly addNameRange     '0.6.0',
+104 silly addNameRange     '0.6.1',
+104 silly addNameRange     '0.7.0',
+104 silly addNameRange     '0.6.2',
+104 silly addNameRange     '0.7.1',
+104 silly addNameRange     '0.7.2',
+104 silly addNameRange     '0.7.3',
+104 silly addNameRange     '0.8.0',
+104 silly addNameRange     '0.8.1',
+104 silly addNameRange     '0.8.2',
+104 silly addNameRange     '0.8.3',
+104 silly addNameRange     '0.9.0',
+104 silly addNameRange     '0.10.0',
+104 silly addNameRange     '0.10.1',
+104 silly addNameRange     '0.11.0',
+104 silly addNameRange     '0.11.1',
+104 silly addNameRange     '0.11.2',
+104 silly addNameRange     '0.12.0',
+104 silly addNameRange     '0.12.1',
+104 silly addNameRange     '0.12.2',
+104 silly addNameRange     '1.0.0',
+104 silly addNameRange     '2.0.0' ] ]
+105 silly addNamed grunt-karma@0.8.3
+106 verbose addNamed "0.8.3" is a plain semver version for grunt-karma
+107 silly mapToRegistry name grunt-karma
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/grunt-karma
+111 verbose addRemoteTarball https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz not in flight; adding
+112 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz',
+112 verbose addRemoteTarball   'e9ecf718153af1914aa53602a37f85de04310e7f' ]
+113 info retry fetch attempt 1 at 11:06:26 AM
+114 info attempt registry request try #1 at 11:06:26 AM
+115 http fetch GET https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz
+116 http fetch 200 https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz
+117 silly fetchAndShaCheck shasum e9ecf718153af1914aa53602a37f85de04310e7f
+118 verbose addTmpTarball /var/folders/ks/wbjvp_0952g3n84jm93290nh0000gn/T/npm-3218-97b33c7c/registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz not in flight; adding
+119 verbose addTmpTarball already have metadata; skipping unpack for grunt-karma@0.8.3
+120 silly cache afterAdd grunt-karma@0.8.3
+121 verbose afterAdd /Users/srkenny/.npm/grunt-karma/0.8.3/package/package.json not in flight; writing
+122 verbose afterAdd /Users/srkenny/.npm/grunt-karma/0.8.3/package/package.json written
+123 silly install resolved [ { name: 'grunt-karma',
+123 silly install resolved     version: '0.8.3',
+123 silly install resolved     description: 'grunt plugin for karma test runner',
+123 silly install resolved     main: 'tasks/grunt-karma.js',
+123 silly install resolved     repository:
+123 silly install resolved      { type: 'git',
+123 silly install resolved        url: 'https://github.com/karma-runner/grunt-karma.git' },
+123 silly install resolved     keywords: [ 'gruntplugin', 'karma', 'grunt', 'test', 'unit', 'runner', 'TDD' ],
+123 silly install resolved     scripts: { test: 'grunt test' },
+123 silly install resolved     author: { name: 'Dave Geddes' },
+123 silly install resolved     license: 'MIT',
+123 silly install resolved     dependencies: { lodash: '~2.4.1' },
+123 silly install resolved     devDependencies:
+123 silly install resolved      { grunt: '~0.4.3',
+123 silly install resolved        'expect.js': '~0.2.0',
+123 silly install resolved        'grunt-release': '~0.5.1',
+123 silly install resolved        'grunt-contrib-watch': '~0.2.0',
+123 silly install resolved        'grunt-conventional-changelog': '~0.0.12',
+123 silly install resolved        'karma-mocha': '~0.1.3',
+123 silly install resolved        karma: '~0.12.0',
+123 silly install resolved        'karma-firefox-launcher': '~0.1.3',
+123 silly install resolved        'karma-chrome-launcher': '~0.1.2' },
+123 silly install resolved     peerDependencies: { grunt: '0.4.x', karma: '~0.12.0' },
+123 silly install resolved     bugs: { url: 'https://github.com/karma-runner/grunt-karma/issues' },
+123 silly install resolved     homepage: 'https://github.com/karma-runner/grunt-karma',
+123 silly install resolved     _id: 'grunt-karma@0.8.3',
+123 silly install resolved     dist:
+123 silly install resolved      { shasum: 'e9ecf718153af1914aa53602a37f85de04310e7f',
+123 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz' },
+123 silly install resolved     _from: 'grunt-karma@>=0.8.3 <0.9.0',
+123 silly install resolved     _npmVersion: '1.4.6',
+123 silly install resolved     _npmUser: { name: 'dignifiedquire', email: 'dignifiedquire@gmail.com' },
+123 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+123 silly install resolved     directories: {},
+123 silly install resolved     _shasum: 'e9ecf718153af1914aa53602a37f85de04310e7f',
+123 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.8.3.tgz' } ]
+124 info install grunt-karma@0.8.3 into /Users/srkenny/Project/fullcalendar
+125 info installOne grunt-karma@0.8.3
+126 verbose installOne of grunt-karma to /Users/srkenny/Project/fullcalendar not in flight; installing
+127 verbose lock using /Users/srkenny/.npm/_locks/grunt-karma-e7eb70c4f6def096.lock for /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+128 silly install write writing grunt-karma 0.8.3 to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+129 verbose unbuild node_modules/grunt-karma
+130 info preuninstall grunt-karma@2.0.0
+131 info uninstall grunt-karma@2.0.0
+132 verbose unbuild rmStuff grunt-karma@2.0.0 from /Users/srkenny/Project/fullcalendar/node_modules
+133 info postuninstall grunt-karma@2.0.0
+134 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma is being purged from base /Users/srkenny/Project/fullcalendar
+135 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+136 silly vacuum-fs purging /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+137 silly vacuum-fs quitting because other entries in /Users/srkenny/Project/fullcalendar/node_modules
+138 verbose tar unpack /Users/srkenny/.npm/grunt-karma/0.8.3/package.tgz
+139 verbose tar unpacking to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+140 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma is being purged
+141 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+142 silly gunzTarPerm modes [ '755', '644' ]
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm extractEntry .npmignore
+145 silly gunzTarPerm extractEntry README.md
+146 silly gunzTarPerm extractEntry LICENSE
+147 silly gunzTarPerm extractEntry Gruntfile.js
+148 silly gunzTarPerm extractEntry .travis.yml
+149 silly gunzTarPerm extractEntry TODO.md
+150 silly gunzTarPerm extractEntry lib/background.js
+151 silly gunzTarPerm extractEntry CHANGELOG.md
+152 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+153 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+154 verbose write writing to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+155 info preinstall grunt-karma@0.8.3
+156 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+157 silly prepareForInstallMany adding lodash@~2.4.1 from grunt-karma dependencies
+158 silly prepareForInstallMany adding grunt@0.4.x from grunt-karma peerDependencies
+159 warn peerDependencies The peer dependency grunt@0.4.x included from grunt-karma will no
+160 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+161 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+162 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+163 silly cache add args [ 'lodash@~2.4.1', null ]
+164 verbose cache add spec lodash@~2.4.1
+165 silly cache add parsed spec Result {
+165 silly cache add   raw: 'lodash@~2.4.1',
+165 silly cache add   scope: null,
+165 silly cache add   name: 'lodash',
+165 silly cache add   rawSpec: '~2.4.1',
+165 silly cache add   spec: '>=2.4.1 <2.5.0',
+165 silly cache add   type: 'range' }
+166 silly addNamed lodash@>=2.4.1 <2.5.0
+167 verbose addNamed ">=2.4.1 <2.5.0" is a valid semver range for lodash
+168 silly addNameRange { name: 'lodash', range: '>=2.4.1 <2.5.0', hasData: false }
+169 silly mapToRegistry name lodash
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry uri https://registry.npmjs.org/lodash
+173 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+174 verbose request uri https://registry.npmjs.org/lodash
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 11:06:27 AM
+177 verbose etag "6OMPMOAVB03LY09JNGU5B7GE1"
+178 http request GET https://registry.npmjs.org/lodash
+179 http 304 https://registry.npmjs.org/lodash
+180 silly get cb [ 304,
+180 silly get   { date: 'Sun, 10 Jul 2016 10:06:27 GMT',
+180 silly get     via: '1.1 varnish',
+180 silly get     'cache-control': 'max-age=300',
+180 silly get     etag: '"6OMPMOAVB03LY09JNGU5B7GE1"',
+180 silly get     age: '262',
+180 silly get     connection: 'keep-alive',
+180 silly get     'x-served-by': 'cache-lcy1132-LCY',
+180 silly get     'x-cache': 'HIT',
+180 silly get     'x-cache-hits': '9',
+180 silly get     'x-timer': 'S1468145187.384159,VS0,VE0',
+180 silly get     vary: 'Accept-Encoding' } ]
+181 verbose etag https://registry.npmjs.org/lodash from cache
+182 verbose get saving lodash to /Users/srkenny/.npm/registry.npmjs.org/lodash/.cache.json
+183 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1 <2.5.0', hasData: true }
+184 silly addNameRange versions [ 'lodash',
+184 silly addNameRange   [ '0.1.0',
+184 silly addNameRange     '0.2.0',
+184 silly addNameRange     '0.2.1',
+184 silly addNameRange     '0.2.2',
+184 silly addNameRange     '0.3.0',
+184 silly addNameRange     '0.3.1',
+184 silly addNameRange     '0.3.2',
+184 silly addNameRange     '0.4.0',
+184 silly addNameRange     '0.4.1',
+184 silly addNameRange     '0.4.2',
+184 silly addNameRange     '0.5.0-rc.1',
+184 silly addNameRange     '0.5.0',
+184 silly addNameRange     '0.5.1',
+184 silly addNameRange     '0.5.2',
+184 silly addNameRange     '0.6.0',
+184 silly addNameRange     '0.6.1',
+184 silly addNameRange     '0.7.0',
+184 silly addNameRange     '0.8.0',
+184 silly addNameRange     '0.8.1',
+184 silly addNameRange     '0.8.2',
+184 silly addNameRange     '0.9.0',
+184 silly addNameRange     '0.9.1',
+184 silly addNameRange     '0.9.2',
+184 silly addNameRange     '0.10.0',
+184 silly addNameRange     '1.0.0-rc.1',
+184 silly addNameRange     '1.0.0-rc.2',
+184 silly addNameRange     '1.0.0-rc.3',
+184 silly addNameRange     '1.0.0',
+184 silly addNameRange     '1.0.1',
+184 silly addNameRange     '1.1.0',
+184 silly addNameRange     '1.1.1',
+184 silly addNameRange     '1.2.0',
+184 silly addNameRange     '1.2.1',
+184 silly addNameRange     '1.3.0',
+184 silly addNameRange     '1.3.1',
+184 silly addNameRange     '2.0.0',
+184 silly addNameRange     '2.1.0',
+184 silly addNameRange     '2.2.0',
+184 silly addNameRange     '2.2.1',
+184 silly addNameRange     '2.3.0',
+184 silly addNameRange     '2.4.0',
+184 silly addNameRange     '2.4.1',
+184 silly addNameRange     '3.0.0',
+184 silly addNameRange     '3.0.1',
+184 silly addNameRange     '3.1.0',
+184 silly addNameRange     '3.2.0',
+184 silly addNameRange     '3.3.0',
+184 silly addNameRange     '3.3.1',
+184 silly addNameRange     '3.4.0',
+184 silly addNameRange     '3.5.0',
+184 silly addNameRange     '3.6.0',
+184 silly addNameRange     '1.0.2',
+184 silly addNameRange     '3.7.0',
+184 silly addNameRange     '2.4.2',
+184 silly addNameRange     '3.8.0',
+184 silly addNameRange     '3.9.0',
+184 silly addNameRange     '3.9.1',
+184 silly addNameRange     '3.9.2',
+184 silly addNameRange     '3.9.3',
+184 silly addNameRange     '3.10.0',
+184 silly addNameRange     '3.10.1',
+184 silly addNameRange     '4.0.0',
+184 silly addNameRange     '4.0.1',
+184 silly addNameRange     '4.1.0',
+184 silly addNameRange     '4.2.0',
+184 silly addNameRange     '4.2.1',
+184 silly addNameRange     '4.3.0',
+184 silly addNameRange     '4.4.0',
+184 silly addNameRange     '4.5.0',
+184 silly addNameRange     '4.5.1',
+184 silly addNameRange     '4.6.0',
+184 silly addNameRange     '4.6.1',
+184 silly addNameRange     '4.7.0',
+184 silly addNameRange     '4.8.0',
+184 silly addNameRange     '4.8.1',
+184 silly addNameRange     '4.8.2',
+184 silly addNameRange     '4.9.0',
+184 silly addNameRange     '4.10.0',
+184 silly addNameRange     '4.11.0',
+184 silly addNameRange     '4.11.1',
+184 silly addNameRange     '4.11.2',
+184 silly addNameRange     '4.12.0',
+184 silly addNameRange     '4.13.0',
+184 silly addNameRange     '4.13.1' ] ]
+185 silly addNamed lodash@2.4.2
+186 verbose addNamed "2.4.2" is a plain semver version for lodash
+187 silly cache afterAdd lodash@2.4.2
+188 verbose afterAdd /Users/srkenny/.npm/lodash/2.4.2/package/package.json not in flight; writing
+189 verbose afterAdd /Users/srkenny/.npm/lodash/2.4.2/package/package.json written
+190 silly install resolved [ { name: 'lodash',
+190 silly install resolved     version: '2.4.2',
+190 silly install resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+190 silly install resolved     homepage: 'http://lodash.com/',
+190 silly install resolved     license: 'MIT',
+190 silly install resolved     main: 'dist/lodash.js',
+190 silly install resolved     keywords:
+190 silly install resolved      [ 'amd',
+190 silly install resolved        'browser',
+190 silly install resolved        'client',
+190 silly install resolved        'customize',
+190 silly install resolved        'functional',
+190 silly install resolved        'server',
+190 silly install resolved        'util' ],
+190 silly install resolved     author:
+190 silly install resolved      { name: 'John-David Dalton',
+190 silly install resolved        email: 'john.david.dalton@gmail.com',
+190 silly install resolved        url: 'http://allyoucanleet.com/' },
+190 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+190 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+190 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+190 silly install resolved     engines: [ 'node', 'rhino' ],
+190 silly install resolved     files:
+190 silly install resolved      [ 'LICENSE.txt',
+190 silly install resolved        'lodash.js',
+190 silly install resolved        'dist/lodash.js',
+190 silly install resolved        'dist/lodash.min.js',
+190 silly install resolved        'dist/lodash.compat.js',
+190 silly install resolved        'dist/lodash.compat.min.js',
+190 silly install resolved        'dist/lodash.underscore.js',
+190 silly install resolved        'dist/lodash.underscore.min.js' ],
+190 silly install resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+190 silly install resolved     volo: { type: 'directory', ignore: [Object] },
+190 silly install resolved     _id: 'lodash@2.4.2',
+190 silly install resolved     scripts: {},
+190 silly install resolved     _shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+190 silly install resolved     _from: 'lodash@>=2.4.1 <2.5.0',
+190 silly install resolved     _npmVersion: '2.7.5',
+190 silly install resolved     _nodeVersion: '0.12.2',
+190 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+190 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+190 silly install resolved     dist:
+190 silly install resolved      { shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+190 silly install resolved        tarball: 'https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz' },
+190 silly install resolved     directories: {},
+190 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz',
+190 silly install resolved     readme: 'ERROR: No README data found!' } ]
+191 info install lodash@2.4.2 into /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+192 info installOne lodash@2.4.2
+193 verbose installOne of lodash to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma not in flight; installing
+194 verbose lock using /Users/srkenny/.npm/_locks/lodash-00cea7d89fbf7683.lock for /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+195 silly install write writing lodash 2.4.2 to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+196 verbose unbuild node_modules/grunt-karma/node_modules/lodash
+197 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash is being purged from base /Users/srkenny/Project/fullcalendar
+198 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+199 verbose tar unpack /Users/srkenny/.npm/lodash/2.4.2/package.tgz
+200 verbose tar unpacking to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+201 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash is being purged
+202 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+203 silly gunzTarPerm modes [ '755', '644' ]
+204 silly gunzTarPerm extractEntry package.json
+205 silly gunzTarPerm extractEntry README.md
+206 silly gunzTarPerm extractEntry lodash.js
+207 silly gunzTarPerm extractEntry LICENSE.txt
+208 silly gunzTarPerm extractEntry dist/lodash.compat.js
+209 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+210 silly gunzTarPerm extractEntry dist/lodash.js
+211 silly gunzTarPerm extractEntry dist/lodash.min.js
+212 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+213 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+214 verbose write writing to /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash/package.json
+215 info preinstall lodash@2.4.2
+216 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash/package.json
+217 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash/package.json
+218 silly install resolved []
+219 verbose about to build /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+220 info build /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+221 info linkStuff lodash@2.4.2
+222 silly linkStuff lodash@2.4.2 has /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules as its parent node_modules
+223 verbose linkBins lodash@2.4.2
+224 verbose linkMans lodash@2.4.2
+225 verbose rebuildBundles lodash@2.4.2
+226 info install lodash@2.4.2
+227 info postinstall lodash@2.4.2
+228 verbose unlock done using /Users/srkenny/.npm/_locks/lodash-00cea7d89fbf7683.lock for /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/node_modules/lodash
+229 verbose about to build /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+230 info build /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+231 info linkStuff grunt-karma@0.8.3
+232 silly linkStuff grunt-karma@0.8.3 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+233 verbose linkBins grunt-karma@0.8.3
+234 verbose linkMans grunt-karma@0.8.3
+235 verbose rebuildBundles grunt-karma@0.8.3
+236 verbose rebuildBundles [ 'lodash' ]
+237 info install grunt-karma@0.8.3
+238 info postinstall grunt-karma@0.8.3
+239 verbose readDependencies loading dependencies from /Users/srkenny/Project/fullcalendar/package.json
+240 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/bower/package.json
+241 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt/package.json
+242 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-bump/package.json
+243 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-clean/package.json
+244 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-compress/package.json
+245 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-concat/package.json
+246 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-copy/package.json
+247 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-cssmin/package.json
+248 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-jshint/package.json
+249 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-uglify/package.json
+250 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-jscs-checker/package.json
+251 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma/package.json
+252 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/grunt-shell/package.json
+253 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/handlebars/package.json
+254 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/jasmine-core/package.json
+255 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma/package.json
+256 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-jasmine/package.json
+257 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/karma-phantomjs-launcher/package.json
+258 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/lumbar/package.json
+259 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/nib/package.json
+260 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus/package.json
+261 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/stylus-images/package.json
+262 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/underscore/package.json
+263 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/bower/package.json
+264 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/grunt/package.json
+265 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/handlebars/package.json
+266 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/lumbar/package.json
+267 verbose targetResolver reading package data from /Users/srkenny/Project/fullcalendar/node_modules/.bin/stylus/package.json
+268 verbose already installed skipping grunt@0.4.x /Users/srkenny/Project/fullcalendar
+269 silly install resolved []
+270 verbose unlock done using /Users/srkenny/.npm/_locks/grunt-karma-e7eb70c4f6def096.lock for /Users/srkenny/Project/fullcalendar/node_modules/grunt-karma
+271 info build /Users/srkenny/Project/fullcalendar
+272 info linkStuff fullcalendar@2.0.2
+273 silly linkStuff fullcalendar@2.0.2 has /Users/srkenny/Project as its parent node_modules
+274 verbose linkBins fullcalendar@2.0.2
+275 verbose linkMans fullcalendar@2.0.2
+276 verbose rebuildBundles fullcalendar@2.0.2
+277 verbose rebuildBundles [ '.bin',
+277 verbose rebuildBundles   'bower',
+277 verbose rebuildBundles   'grunt',
+277 verbose rebuildBundles   'grunt-bump',
+277 verbose rebuildBundles   'grunt-contrib-clean',
+277 verbose rebuildBundles   'grunt-contrib-compress',
+277 verbose rebuildBundles   'grunt-contrib-concat',
+277 verbose rebuildBundles   'grunt-contrib-copy',
+277 verbose rebuildBundles   'grunt-contrib-cssmin',
+277 verbose rebuildBundles   'grunt-contrib-jshint',
+277 verbose rebuildBundles   'grunt-contrib-uglify',
+277 verbose rebuildBundles   'grunt-jscs-checker',
+277 verbose rebuildBundles   'grunt-karma',
+277 verbose rebuildBundles   'grunt-shell',
+277 verbose rebuildBundles   'handlebars',
+277 verbose rebuildBundles   'jasmine-core',
+277 verbose rebuildBundles   'karma',
+277 verbose rebuildBundles   'karma-jasmine',
+277 verbose rebuildBundles   'karma-phantomjs-launcher',
+277 verbose rebuildBundles   'lumbar',
+277 verbose rebuildBundles   'nib',
+277 verbose rebuildBundles   'stylus',
+277 verbose rebuildBundles   'stylus-images',
+277 verbose rebuildBundles   'underscore' ]
+278 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-cssmin
+279 info build /Users/srkenny/Project/fullcalendar/node_modules/grunt-contrib-cssmin
+280 info preinstall grunt-contrib-cssmin@0.10.0
+281 info linkStuff grunt-contrib-cssmin@0.10.0
+282 silly linkStuff grunt-contrib-cssmin@0.10.0 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+283 verbose linkBins grunt-contrib-cssmin@0.10.0
+284 verbose linkMans grunt-contrib-cssmin@0.10.0
+285 verbose rebuildBundles grunt-contrib-cssmin@0.10.0
+286 verbose rebuildBundles [ '.bin', 'chalk', 'clean-css', 'maxmin' ]
+287 info install grunt-contrib-cssmin@0.10.0
+288 info postinstall grunt-contrib-cssmin@0.10.0
+289 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/grunt-shell
+290 info build /Users/srkenny/Project/fullcalendar/node_modules/grunt-shell
+291 info preinstall grunt-shell@0.7.0
+292 info linkStuff grunt-shell@0.7.0
+293 silly linkStuff grunt-shell@0.7.0 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+294 verbose linkBins grunt-shell@0.7.0
+295 verbose linkMans grunt-shell@0.7.0
+296 verbose rebuildBundles grunt-shell@0.7.0
+297 verbose rebuildBundles [ 'chalk' ]
+298 info install grunt-shell@0.7.0
+299 info postinstall grunt-shell@0.7.0
+300 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/handlebars
+301 info build /Users/srkenny/Project/fullcalendar/node_modules/handlebars
+302 info preinstall handlebars@4.0.5
+303 info linkStuff handlebars@4.0.5
+304 silly linkStuff handlebars@4.0.5 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+305 verbose linkBins handlebars@4.0.5
+306 verbose link bins [ { handlebars: 'bin/handlebars' },
+306 verbose link bins   '/Users/srkenny/Project/fullcalendar/node_modules/.bin',
+306 verbose link bins   false ]
+307 verbose linkMans handlebars@4.0.5
+308 verbose rebuildBundles handlebars@4.0.5
+309 verbose rebuildBundles [ '.bin', 'async', 'optimist', 'source-map', 'uglify-js' ]
+310 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/.bin/handlebars is being purged
+311 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/.bin/handlebars
+312 silly vacuum-fs purging /Users/srkenny/Project/fullcalendar/node_modules/.bin/handlebars
+313 silly vacuum-fs quitting because other entries in /Users/srkenny/Project/fullcalendar/node_modules/.bin
+314 info install handlebars@4.0.5
+315 info postinstall handlebars@4.0.5
+316 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/jasmine-core
+317 info build /Users/srkenny/Project/fullcalendar/node_modules/jasmine-core
+318 info preinstall jasmine-core@2.4.1
+319 info linkStuff jasmine-core@2.4.1
+320 silly linkStuff jasmine-core@2.4.1 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+321 verbose linkBins jasmine-core@2.4.1
+322 verbose linkMans jasmine-core@2.4.1
+323 verbose rebuildBundles jasmine-core@2.4.1
+324 info install jasmine-core@2.4.1
+325 info postinstall jasmine-core@2.4.1
+326 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/karma
+327 info build /Users/srkenny/Project/fullcalendar/node_modules/karma
+328 info preinstall karma@0.12.23
+329 info linkStuff karma@0.12.23
+330 silly linkStuff karma@0.12.23 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+331 verbose linkBins karma@0.12.23
+332 verbose link bins [ {},
+332 verbose link bins   '/Users/srkenny/Project/fullcalendar/node_modules/.bin',
+332 verbose link bins   false ]
+333 verbose linkMans karma@0.12.23
+334 verbose rebuildBundles karma@0.12.23
+335 verbose rebuildBundles [ '.bin',
+335 verbose rebuildBundles   'chokidar',
+335 verbose rebuildBundles   'colors',
+335 verbose rebuildBundles   'connect',
+335 verbose rebuildBundles   'di',
+335 verbose rebuildBundles   'glob',
+335 verbose rebuildBundles   'graceful-fs',
+335 verbose rebuildBundles   'http-proxy',
+335 verbose rebuildBundles   'lodash',
+335 verbose rebuildBundles   'log4js',
+335 verbose rebuildBundles   'mime',
+335 verbose rebuildBundles   'minimatch',
+335 verbose rebuildBundles   'optimist',
+335 verbose rebuildBundles   'q',
+335 verbose rebuildBundles   'rimraf',
+335 verbose rebuildBundles   'socket.io',
+335 verbose rebuildBundles   'source-map',
+335 verbose rebuildBundles   'useragent' ]
+336 info install karma@0.12.23
+337 info postinstall karma@0.12.23
+338 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/nib
+339 info build /Users/srkenny/Project/fullcalendar/node_modules/nib
+340 info preinstall nib@1.1.0
+341 info linkStuff nib@1.1.0
+342 silly linkStuff nib@1.1.0 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+343 verbose linkBins nib@1.1.0
+344 verbose linkMans nib@1.1.0
+345 verbose rebuildBundles nib@1.1.0
+346 verbose rebuildBundles [ '.bin', 'stylus' ]
+347 info install nib@1.1.0
+348 info postinstall nib@1.1.0
+349 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/stylus
+350 info build /Users/srkenny/Project/fullcalendar/node_modules/stylus
+351 info preinstall stylus@0.54.5
+352 info linkStuff stylus@0.54.5
+353 silly linkStuff stylus@0.54.5 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+354 verbose linkBins stylus@0.54.5
+355 verbose link bins [ { stylus: './bin/stylus' },
+355 verbose link bins   '/Users/srkenny/Project/fullcalendar/node_modules/.bin',
+355 verbose link bins   false ]
+356 verbose linkMans stylus@0.54.5
+357 verbose rebuildBundles stylus@0.54.5
+358 verbose rebuildBundles [ '.bin',
+358 verbose rebuildBundles   'css-parse',
+358 verbose rebuildBundles   'debug',
+358 verbose rebuildBundles   'glob',
+358 verbose rebuildBundles   'mkdirp',
+358 verbose rebuildBundles   'sax',
+358 verbose rebuildBundles   'source-map' ]
+359 silly gentlyRm /Users/srkenny/Project/fullcalendar/node_modules/.bin/stylus is being purged
+360 verbose gentlyRm don't care about contents; nuking /Users/srkenny/Project/fullcalendar/node_modules/.bin/stylus
+361 silly vacuum-fs purging /Users/srkenny/Project/fullcalendar/node_modules/.bin/stylus
+362 silly vacuum-fs quitting because other entries in /Users/srkenny/Project/fullcalendar/node_modules/.bin
+363 info install stylus@0.54.5
+364 info postinstall stylus@0.54.5
+365 verbose rebuild bundle /Users/srkenny/Project/fullcalendar/node_modules/stylus-images
+366 info build /Users/srkenny/Project/fullcalendar/node_modules/stylus-images
+367 info preinstall stylus-images@1.1.0
+368 info linkStuff stylus-images@1.1.0
+369 silly linkStuff stylus-images@1.1.0 has /Users/srkenny/Project/fullcalendar/node_modules as its parent node_modules
+370 verbose linkBins stylus-images@1.1.0
+371 verbose linkMans stylus-images@1.1.0
+372 verbose rebuildBundles stylus-images@1.1.0
+373 info install stylus-images@1.1.0
+374 info postinstall stylus-images@1.1.0
+375 info install fullcalendar@2.0.2
+376 verbose unsafe-perm in lifecycle true
+377 info postinstall fullcalendar@2.0.2
+378 info prepublish fullcalendar@2.0.2
+379 verbose validateInstall loading /Users/srkenny/Project/fullcalendar/package.json for validation
+380 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+380 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+380 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+380 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+380 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+380 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+380 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+380 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+380 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+380 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+380 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+381 verbose cwd /Users/srkenny/Project/fullcalendar
+382 error Darwin 15.5.0
+383 error argv "/usr/local/Cellar/node/0.10.30/bin/node" "/usr/local/bin/npm" "install"
+384 error node v4.0.0
+385 error npm  v2.14.2
+386 error code EPEERINVALID
+387 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+387 error peerinvalid Peer grunt-bump@0.8.0 wants grunt@>=1.0.1
+387 error peerinvalid Peer grunt-karma@0.8.3 wants grunt@0.4.x
+387 error peerinvalid Peer grunt-shell@0.7.0 wants grunt@~0.4.0
+387 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+387 error peerinvalid Peer grunt-contrib-cssmin@0.10.0 wants grunt@~0.4.1
+387 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+387 error peerinvalid Peer grunt-contrib-jshint@0.8.0 wants grunt@~0.4.0
+387 error peerinvalid Peer grunt-jscs-checker@0.4.4 wants grunt@~0.4.2
+388 verbose exit [ 1, true ]

@@ -644,12 +644,12 @@ function ResourceEventRenderer() {
 
 				if (isInBounds && (isAllDay || resourceDelta || snapDelta)) { // changed!
 					var targetResources = event.resources.slice(0);
-
-					if (resourceDelta){
+					var resources = getResources();
+					
+					if (resourceDelta && (origCell.col + resourceDelta < resources.length)){
 						// given we have r1/r3 
 						// if we move r3 to r2, then we want to maintain r1/r2.
 						// if we move r3 to r1, then we only want to maintain r1 - so we splice the array
-						var resources = getResources();
 						var newId = resources[origCell.col + resourceDelta].id;
 						var oldId = resources[origCell.col].id;
 
